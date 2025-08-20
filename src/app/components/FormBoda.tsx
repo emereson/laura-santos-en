@@ -10,7 +10,7 @@ type FormData = {
   name: string;
   phone: string;
   email: string;
-  guests: number;
+  // guests: number;
 };
 
 function WeddingForm() {
@@ -98,7 +98,7 @@ function WeddingForm() {
             </div>
 
             {/* Guests */}
-            <div>
+            {/* <div>
               <label className="block mb-1 font-semibold">
                 Number of Guests
               </label>
@@ -114,10 +114,10 @@ function WeddingForm() {
                   Please indicate number of guests
                 </span>
               )}
-            </div>
+            </div> */}
 
             <span className="m-auto text-center text-sm text-black">
-              An Evening for Adults Only
+              With all due respect, no children.{" "}
             </span>
 
             <div className="flex justify-end gap-2 mt-4">
