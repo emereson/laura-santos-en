@@ -26,9 +26,20 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className=" w-screen  overflow-x-hidden overflow-y-visible ">
-      <div>
-        <Link href={"https://laura-y-santos.creativeartvideo.com/"}>ES</Link>
-        <Link href={"https://laura-y-santos-en.creativeartvideo.com/"}>En</Link>
+      <div className="fixed top-4 right-4 z-20  text-white flex rounded-sm">
+        <Link
+          className="p-1 px-2 opacity-70 bg-[#b19671]"
+          href={"https://laura-y-santos.creativeartvideo.com/"}
+        >
+          ES
+        </Link>
+
+        <Link
+          className="border-l-1 p-1 px-2 bg-[#b19671]"
+          href={"https://laura-y-santos-en.creativeartvideo.com/"}
+        >
+          En
+        </Link>
       </div>
       <MemoScrollAnimations />
       <MemoScrollFixedImage />
