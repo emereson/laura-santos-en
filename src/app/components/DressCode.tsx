@@ -1,7 +1,5 @@
 import Image from "next/image";
-import { SiGooglemaps } from "react-icons/si";
 import { memo } from "react";
-import Link from "next/link";
 
 function DressCode() {
   return (
