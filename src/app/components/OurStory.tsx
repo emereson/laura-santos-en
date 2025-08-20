@@ -29,7 +29,7 @@ const storyData = [
   },
   {
     year: "2020",
-    img: "/img/ourStories/03.jpg",
+    img: "/img/ourStories/03.png",
     icon: "/img/ourStories/A03.png",
     title: "PROPOSAL",
     description: "January, 22nd, 2022. \n October, 6th 2024",
