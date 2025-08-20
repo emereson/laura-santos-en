@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "freeFa900";
+  src: url("/fonts/free-fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "free";
+  src: url("/fonts/free.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "freeBold";
+  src: url("/fonts/freeBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "extraCursive";
+  src: url("/fonts/extraCursive.woff2") format("woff2");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "freeBold", Arial, Helvetica, sans-serif;
+}
+
+img {
+  object-fit: cover;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px) scale(0.9);
+}
+
+.animate-on-scroll {
+  will-change: transform, opacity;
+}
