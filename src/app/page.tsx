@@ -22,6 +22,7 @@ import {
 } from "@/utils/ScrollAnimations";
 import FormBoda from "./components/FormBoda";
 import Link from "next/link";
+import DressCode from "./components/DressCode";
 
 export default function Home() {
   return (
@@ -61,6 +62,7 @@ export default function Home() {
       <Blessing />
       <Godparents />
       <Itinerary />
+      <DressCode />
       <Mimbre />
       <SuggestionH />
       <GiftTable />

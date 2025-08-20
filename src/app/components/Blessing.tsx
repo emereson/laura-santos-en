@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { memo } from "react";
+import { RiCrossFill } from "react-icons/ri";
 
 function Blessing() {
   return (
@@ -21,17 +22,22 @@ function Blessing() {
           <h3 className="animate-on-scroll font-[extraCursive] text-5xl mt-10 max-lg:text-3xl">
             Parents of the bride
           </h3>
-          <ul className="animate-on-scroll text-2xl max-lg:text-xl">
-            <li>RODRIGO GONZALES  ✝️</li>
-            <li>CRISTINA ZUÑIGA</li>
+          <ul className="animate-on-scroll text-2xl max-lg:text-lg">
+            <li className="flex items-center justify-center gap-2">
+              RODRIGO GONZALEZ
+              <RiCrossFill />
+            </li>
+            <li style={{ wordSpacing: "5px" }}>CRISTINA ZUÑIGA</li>
           </ul>
 
           <h3 className="animate-on-scroll font-[extraCursive] text-5xl mt-10 max-lg:text-3xl">
             Parents of the groom
           </h3>
-          <ul className="animate-on-scroll text-2xl max-lg:text-xl">
-            <li>EMEDENCIO SANTOS DE LA CRUZ ✝️</li>
-            <li>PATRICIA DUARTE</li>
+          <ul className="animate-on-scroll text-2xl max-lg:text-lg">
+            <li className="flex items-center justify-center gap-2">
+              EMEDENCIO SANTOS DE LA CRUZ <RiCrossFill />
+            </li>
+            <li style={{ wordSpacing: "5px" }}>PATRICIA{} DUARTE</li>
           </ul>
         </article>
       </div>

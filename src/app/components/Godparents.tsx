@@ -41,6 +41,11 @@ const godparentsData: GodparentSlide[] = [
     names: ["Reyna", "Miguel del Toro"],
   },
   {
+    title: "Bible",
+    icon: "/icons/mano.webp",
+    names: ["Lulu Zuñiga"],
+  },
+  {
     title: "Rosary",
     icon: "/icons/mano.webp",
     names: ["Carmen Mondragon"],
