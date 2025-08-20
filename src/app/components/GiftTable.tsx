@@ -54,7 +54,7 @@ function GiftTable() {
                 href="https://www.macys.com/registry/LAURA-GONZALEZ-Emedencio-Santos/1149992"
                 target="_blank"
               >
-                Go to Macy's
+                Go to Macy&apos;s
               </Link>
             </div>
           </div>
