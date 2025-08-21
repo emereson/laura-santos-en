@@ -52,7 +52,7 @@ function Blessing() {
       </div>
       <section className="w-screen p-6 bg-[#b19671] animation-scroll hidden max-lg:flex">
         <h2 className="text-center font-[free] text-white text-4xl animate-on-scroll max-lg:text-2xl">
-          Join us in celebrating this special momen
+          Join us in celebrating this special moment
         </h2>
       </section>
     </section>
